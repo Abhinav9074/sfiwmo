@@ -18,7 +18,7 @@
     }
     .wrapper{
         position: relative;
-        background: url("assets/images/background1.jpg") no-repeat;
+        background: url('https://github.com/Abhinav9074/sfiwmo/blob/main/asset/images/background1.jpg') no-repeat;
         background-size: cover;
         height: 100vh;
         width: 100%;
