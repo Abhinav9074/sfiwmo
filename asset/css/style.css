@@ -26,7 +26,7 @@
         background-position:center;
     }
 
-    .wrapper1{
+    /* .wrapper1{
         position: relative;
         background: url('https://abhinav9074.github.io/sfiwmo/asset/images/bg2.jpg') no-repeat;
         background-size: cover;
@@ -34,7 +34,7 @@
         width: 100%;
         box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
         background-position:center;
-    }
+    } */
 
     .navbar{
         display: flex;
@@ -79,6 +79,10 @@
         user-select: none;
     }
 
+    .content{
+        width: 99%;
+    }
+
    .content h1{
 	color:white;
 	font-size: 25px;
@@ -86,6 +90,7 @@
     position: relative;
     top: 15px;
     left: 5px;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     }
 
@@ -134,20 +139,12 @@
 
     @media only screen and (min-width: 768px) {
         .wrapper{
-            background: url(asset/images/bg2.jpg) no-repeat;
+            background: url('https://abhinav9074.github.io/sfiwmo/asset/images/background1.jpg') no-repeat;
             background-size: cover;
-    }
+        }
 
-    .navbar .logo{
-        position: relative;
-        top: 14px;
-        right: 650px;
+        .navbar{
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
-
-    .navbar ul li a{
-        font-size: 15px;
-        position: relative;
-        left: 470px;
-        bottom: 13px;
-    }
-}
