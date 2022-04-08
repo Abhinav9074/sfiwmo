@@ -162,7 +162,7 @@
       }
 
 
-      .fa-solid.fa-square-envelope{
+      .fa-brands.fa-whatsapp{
         color: #ffffff;
         font-size: 22px;
         transition: .4s;
@@ -173,10 +173,6 @@
       }
 
       .fa-brands:hover{
-        color: #ff0000;
-    }
-
-    .fa-solid:hover{
         color: #ff0000;
     }
 
