@@ -131,6 +131,44 @@
         background: #cc0000;
     }
 
+    .fa-brands.fa-instagram{
+      color: #ffffff;
+      font-size: 30px;
+      transition: .4s;
+      position:fixed;
+      bottom: 0;
+      margin-bottom:15px;
+    }
+
+    .fa-brands.fa-facebook-square{
+        color: #ffffff;
+        font-size: 28px;
+        transition: .4s;
+        position:fixed;
+        bottom: 0;
+        margin-bottom:18px;
+        margin-left: 45px;
+      }
+
+
+      .fa-solid.fa-square-envelope{
+        color: #ffffff;
+        font-size: 30px;
+        transition: .4s;
+        position:fixed;
+        bottom: 0;
+        margin-bottom:15px;
+        margin-left: -45px;
+      }
+
+      .fa-brands:hover{
+        color: #ff0000;
+    }
+
+    .fa-solid:hover{
+        color: #ff0000;
+    }
+
     @media only screen and (min-width: 768px) {
         .wrapper{
             background: url('images/background1.jpg') no-repeat;
@@ -178,4 +216,5 @@
     .content p{
        line-height: 24px;
         }
-}
+    
+    }
