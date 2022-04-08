@@ -131,34 +131,45 @@
         background: #cc0000;
     }
 
+    .contact h3{
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        position:fixed;
+        bottom: 0;
+        margin-bottom:50px;
+        margin-left: -42px;
+    }
+
     .fa-brands.fa-instagram{
       color: #ffffff;
-      font-size: 30px;
+      font-size: 22px;
       transition: .4s;
       position:fixed;
       bottom: 0;
       margin-bottom:15px;
+      margin-left: -10px;
     }
 
     .fa-brands.fa-facebook-square{
         color: #ffffff;
-        font-size: 28px;
+        font-size: 20px;
         transition: .4s;
         position:fixed;
         bottom: 0;
-        margin-bottom:18px;
-        margin-left: 45px;
+        margin-bottom:17px;
+        margin-left: 27px;
       }
 
 
       .fa-solid.fa-square-envelope{
         color: #ffffff;
-        font-size: 30px;
+        font-size: 22px;
         transition: .4s;
         position:fixed;
         bottom: 0;
         margin-bottom:15px;
-        margin-left: -45px;
+        margin-left: -47px;
       }
 
       .fa-brands:hover{
