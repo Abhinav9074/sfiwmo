@@ -138,7 +138,13 @@
         position:fixed;
         bottom: 0;
         margin-bottom:50px;
-        margin-left: -40px;
+        margin-left: -44px;
+        background: red;
+        outline: none;
+        cursor: pointer;
+        border: 5px solid red;
+        border-radius: 5px;
+        transition: .4s;
     }
 
     .fa-brands.fa-instagram{
