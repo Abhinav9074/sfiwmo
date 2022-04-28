@@ -52,7 +52,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-img {
+.members{
     border: 2px solid rgb(165, 166, 145);
     border-radius: 5px;
   }
@@ -73,6 +73,17 @@ img {
       height: 50px;
       background: rgba(0, 0, 0, 0.6);
       margin-top: 90px;
+  }
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
 
   @media only screen and (min-width: 768px){
