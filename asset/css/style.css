@@ -37,12 +37,12 @@ body {
     position: absolute;
     background: #ffffff;
     margin-right: 260px;
-    min-width: 160px;
+    min-width: 100px;
   }
   .dropdown-content a {
     color: rgb(0, 0, 0);
     padding: 2px 2px;
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     display: block;
     font-weight: bold;
