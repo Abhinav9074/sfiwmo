@@ -213,6 +213,7 @@ body {
     color: #ffffff;
     font-size: 22px;
     transition: .4s;
+    text-decoration: none;
 }
 
 .fa-solid:hover{
