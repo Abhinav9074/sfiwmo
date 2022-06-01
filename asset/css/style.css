@@ -38,6 +38,7 @@ body {
     background: #ffffff;
     margin-right: 260px;
     min-width: 100px;
+    border-radius: 2px;
   }
   .dropdown-content a {
     color: rgb(0, 0, 0);
@@ -48,9 +49,21 @@ body {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
   }
-  .dropdown-content a:hover {background-color: rgb(255, 0, 0);}
-  .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: #ff0000;}
+  .dropdown-content a:hover {
+      background-color: rgb(255, 0, 0);
+      border-radius: 2px;
+      color: rgb(255, 255, 255);
+    }
+  .dropdown:hover .dropdown-content {
+      display: block;
+      border-radius: 2px;
+      color: rgb(255, 255, 255);
+    }
+  .dropdown:hover .dropbtn {
+      background-color: #ff0000;
+      border-radius: 2px;
+      color: rgb(255, 255, 255);
+    }
 
 .wrapper {
     position: relative;
