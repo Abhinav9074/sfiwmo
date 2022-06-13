@@ -110,7 +110,9 @@ section.our-team {
 .our-team .member:hover .social {
     bottom: 10px;
 }
-
+.person{
+    font-size: 20px;
+}
 
 @media only screen and (min-width: 768px) {
     p{
