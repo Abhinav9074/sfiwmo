@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+.course{
+    margin-left: 8px;
+    height:175px;
+    width: 150px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.course:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+.devide{
+    height: 100px;
+    width: 151px;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: .4s;
+}
+.devide:hover{
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    transition: .4s;
+}
+.name{
+    color: #fff;
+    margin-left: 0px;
+    margin-top: 28px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+.person{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact{
+    height: 55px;
+    width: 151px;
+    background: rgb(255, 0, 0);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding-top: 2px;
+}
+.fa-solid{
+    color:#fff;
+    margin-top: -4px;
+    font-size: 19px;
+    margin-left: 0px;
+}
+.fa-brands{
+    color:#fff;
+    margin-top: -4px;
+    font-size: 19px;
+    margin-left: 0px;
+}
+.fa-brands:hover{
+    color:rgb(255, 251, 2);
+    transition: .4s;
+}
+.fa-solid:hover{
+    color:rgb(255, 251, 2);
+    transition: .4s;
+}
+#bca{
+    background-image: url('images/courses/bca.jpg');
+}
+#arabic{
+    background-image: url('images/courses/arabic.jpg');
+}
+#bcom_cor{
+    background-image: url('images/courses/bcom.jpg');
+}
+#phy{
+    background-image: url('images/courses/physics.jpg');
+}
+#ele{
+    background-image: url('images/courses/electronics.jpg');
+}
+#maths{
+    background-image: url('images/courses/maths.jpg');
+}
+#eng{
+    background-image: url('images/courses/english.jpg');
+}
+#che{
+    background-image: url('images/courses/chemistry.jpg');
+}
+#bcom_ca{
+    background-image: url('images/courses/bcom2.jpg');
+}
+#mass{
+    background-image: url('images/courses/masscom.jpg');
+}
+#eco{
+    background-image: url('images/courses/economics.jpg');
+}
+
+@media only screen and (min-width: 768px){
+    .course{
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .person{
+        font-size: 18px;
+    }
+    .contact{
+        width: 201px;
+        height: 65px;
+    }
+    .devide{
+        height: 109px;
+        width: 201px
+    }
+}
