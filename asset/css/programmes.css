@@ -97,7 +97,7 @@ section.our-team {
 }
 .our-team h4{
     color: black;
-    font-size: 0.9rem;
+    font-size: 0.5rem;
 }
 @media only screen and (min-width: 768px) {
     p{
@@ -118,5 +118,9 @@ section.our-team {
     }
     .home{
         margin-left: 30px;
+    }
+    .our-team h4{
+        color: black;
+        font-size: 0.9rem;
     }
 }
