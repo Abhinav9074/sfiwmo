@@ -95,6 +95,10 @@ section.our-team {
     color: rgb(255, 255, 255);
     font-size: 15px;
 }
+.our-team h4{
+    color: black;
+    font-size: 0.9rem;
+}
 @media only screen and (min-width: 768px) {
     p{
         font-size: 30px;
